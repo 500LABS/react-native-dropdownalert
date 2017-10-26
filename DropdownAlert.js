@@ -442,7 +442,7 @@ export default class DropdownAlert extends Component {
                   }}
                   onPress={() => this.close('cancel')}
                 >
-                  <ImageView style={this.props.cancelBtnImageStyle} source={this.props.cancelBtnImageSrc} />
+                {this.props.cancelBtnImageSrc}
                 </TouchableOpacity>}
             </View>
           </TouchableOpacity>
